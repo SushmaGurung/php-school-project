@@ -93,7 +93,7 @@
                <input type="text" class="form-control" id="exampleInputPassword1" name="password" value="">
              </div>
              <button type="submit" class="btn btn-primary" name="submit">Submit</button>
-             <a href="index.php" type="button" class="btn btn-primary" >Manage</a>
+             <a href="index.php" type="button" class="btn btn-primary" >Login</a>
             </form>
         <!-- /.row -->
       </div>

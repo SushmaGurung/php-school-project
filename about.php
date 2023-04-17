@@ -16,9 +16,8 @@
       <p><?php echo $aboutData['top_desc']; ?></p>
     </div>
   </div><!-- End Breadcrumbs -->
-
   <!-- ======= About Section ======= -->
-  <section id="about" class="about">
+  <section id="about" class="about" style=" background: url('<?php echo 'admin/uploads/'. $aboutData['img']?>')">
     <div class="container" data-aos="fade-up">
 
       <div class="row">

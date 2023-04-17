@@ -1,5 +1,5 @@
 <?php
-require ("connection/config.php");
+require ("../connection/config.php");
 
         if (isset($_POST['email'])) {
 
@@ -25,9 +25,9 @@ require ("connection/config.php");
                     $_SESSION['email'] = $row['email'];
                     $_SESSION['name'] = $row['name'];
 
-                    echo Header("Location:home.php?msg=login_success");
+                    echo Header("Location:../home.php?msg=login_success");
                 } else {
-                    echo Header("Location:index.php?msg=login_fail");
+                    echo Header("Location:../signup.php?msg=login_fail_register_first");
                 }
             } else {
                 echo "Enter email and password to login";

@@ -5,6 +5,7 @@ ob_start();
 session_start();
 if(!isset($_SESSION['email'])){
   header("Location:index.php");//login page
+  
     // show page
 }
 
@@ -17,7 +18,7 @@ if(!isset($_SESSION['email'])){
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AdminLTE 3 | Dashboard</title>
 
-  <!-- Google Font: Source Sans Pro -->
+  <! Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
@@ -266,6 +267,29 @@ if(!isset($_SESSION['email'])){
               </li> -->
               <li class="nav-item">
                 <a href="pages/users/index.php" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Manage </p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-table"></i>
+              <p>
+                Form
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <!-- <li class="nav-item">
+                <a href="pages/users/add.php" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Add </p>
+                </a>
+              </li> -->
+              <li class="nav-item">
+                <a href="pages/form/index.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Manage </p>
                 </a>

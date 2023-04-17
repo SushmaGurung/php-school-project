@@ -1,6 +1,4 @@
 <!-- make login form
-
-
 add secure.php to home.php
 
 home.php was renamed from index.php -->
@@ -16,8 +14,7 @@ home.php was renamed from index.php -->
 </head>
 
 <body>
-    <form method="POST" enctype="multipart/form-data" class="container  w-75 mt-5">
-      <?php require("login-process/login.php") ?>
+    <form action="login-process/login.php" method="POST" enctype="multipart/form-data" class="container  w-75 mt-5">
 
         <div class=" mb-3">
             <label for="exampleInputEmail1" class="form-label">Email address</label>

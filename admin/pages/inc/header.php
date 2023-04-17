@@ -2,17 +2,17 @@
 <?php 
  include("../../connection/config.php");
  ob_start();
+
 session_start();
 if(!isset($_SESSION['email'])){
-  header("Location:../index.php");//login page
+  header("Location:../../index.php");//login page
     // show page
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" >
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AdminLTE 3 | Advanced form elements</title>
 
